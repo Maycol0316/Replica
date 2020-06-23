@@ -1,0 +1,83 @@
+html {
+    font-family: sans-serif;
+}
+#Boton_Menu {
+    background-color: #F2F3F3;
+    height: 77px;
+    top: 10px;
+    
+}
+#promo_uno {
+    background-color: #EDF1F1;
+    height: 100px;
+    border-top: 1px solid #ddd;;
+    border-bottom: 1px solid #ddd;
+}
+#Descuento {
+    color: #59a574;
+    font-size: 16px;
+    text-align: center;
+    line-height: 160%;
+}
+#promo_dos {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+#texto1 {
+    background-color: #EDF1F1;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 700px;
+}
+#ppt1 {
+    background-color: #EFF0ED;
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+#spt1 {
+    background-color:#EFF0ED ;
+    height: 50px;
+    width: 600px;
+    border-bottom: 2px solid #58A574;
+}
+#tpt1 {
+    background-color: #EFF0ED;
+    width: 600px;
+    height: 100px;
+    line-height: 160%;
+
+}
+h1 {
+    font-size: 64px;
+}
+h3 {
+    font-size: 22px;
+}
+#tc p {
+    font-size: 15px;
+    background-color: #EFF0ED;
+    width: 500px;
+    height: 100px;
+}
+#ima1 {
+    position: relative;
+    left: 600px;
+    bottom: 400px;
+}
+#boton1 {
+    position: relative;
+    left: 50px;
+    bottom: 500px;
+    background-color: #47845D;
+    width: 250px;
+    height: 40px;
+
+}
+#boton1 span {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
