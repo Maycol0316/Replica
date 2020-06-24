@@ -4,12 +4,14 @@ html {
 #Boton_Menu {
     background-color: #F2F3F3;
     height: 77px;
+    width: auto;
     top: 10px;
     
 }
 #promo_uno {
     background-color: #EDF1F1;
     height: 100px;
+    width: auto;
     border-top: 1px solid #ddd;;
     border-bottom: 1px solid #ddd;
 }
@@ -25,18 +27,19 @@ html {
     text-align: center;
 }
 #texto1 {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #EDF1F1;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    height: 700px;
+    height: 800px;
 }
 #ppt1 {
     background-color: #EFF0ED;
     width: 600px;
     height: 300px;
-    float: left;
+    
 }
 #spt1 {
     background-color:#EFF0ED ;
@@ -46,7 +49,7 @@ html {
 }
 #tpt1 {
     background-color: #EFF0ED;
-    width: 600px;
+    width: 500px;
     height: 100px;
     line-height: 160%;
 
@@ -57,29 +60,81 @@ h1 {
 h3 {
     font-size: 22px;
 }
-#tc p {
+#tpt1 p {
     font-size: 15px;
     background-color: #EFF0ED;
-    width: 500px;
     height: 100px;
+    width: 500px;
 }
 #ima1 {
-    position: relative;
-    left: 600px;
-    bottom: 400px;
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 200px;
+    
 }
 #boton1 {
     position: relative;
-    left: 50px;
-    bottom: 500px;
-    background-color: #47845D;
+    background-color: #58A574   ;
     width: 250px;
-    height: 40px;
+    height: 55px;
 
 }
 #boton1 span {
     color: white;
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 10px;
+}
+.sub_container1, .sub_container1boton {
+    display: flex;
+    float: left;
+    position: relative;
+    left: 50px;
+}
+#texto2 {
+    background-color: #F2F3F3;
+    height: 800px;
+    position: relative;
+    top: -27px;
+}
+.sub_container2 h2{
+    font-size: 32px;
+    line-height: 160%;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+#texto2a {
+    background-color: white;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.sub_container2a h2 {
+    font-size: 32px;
+    color: black;
+    line-height: 160%;
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+.sub_container2a p {
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 2px;
+    color: black;
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+.sub_container2a span {
+    font-size: 16px;
+    color: black;
+    display: flex;
+    position: relative;
+    top: 50px;
 }
