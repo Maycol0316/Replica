@@ -10,7 +10,8 @@ body {
     max-width: 4000px;
     background-color: #F2F3F3;
     height: 100px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 #Boton_Menu {
     background-color: #F2F3F3;
@@ -18,6 +19,47 @@ body {
     top: 10px;
     
 }
+.hamburger {
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color:#58A573;
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+    content: '';
+    transition-timing-function: ease;
+    transition-duration: .2s;
+    transition-property: transform,opacity;
+}
+.hamburger-inner:before {
+    top: 10px;
+}
+.hamburger-inner:after {
+    top: 20px;
+}
+#idioma {
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+#idioma a{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+#idioma a:hover{
+    color: #58A573;
+}
+#idioma .croata {
+    margin-right: 20px;
+}
+
+}
+
 .container div i {
     display: flex;
     position: absolute;
@@ -226,13 +268,17 @@ h3 {
     margin-top: 20px;
 }
 
-.sub_container2b span {
+.sub_container2b a {
     font-size: 1rem;
     font-weight: 700;
     color: black;
-    margin-left: 30px;
-
+    margin-left: 16px;
 }
+
+.sub_container2b a:hover{
+    color: #5AA676;
+}
+
 #texto2c {
     background-color: rgb(3, 3, 3);
     height: 600px;
