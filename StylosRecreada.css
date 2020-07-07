@@ -1,25 +1,53 @@
 html {
     font-family: sans-serif;
 }
+body {
+    width: 100%;
+}
+#encabezado {
+    margin: 0px;
+    width: 106%;
+    max-width: 4000px;
+    background-color: #F2F3F3;
+    height: 100px;
+    position: relative;
+}
 #Boton_Menu {
     background-color: #F2F3F3;
     height: 77px;
-    width: auto;
     top: 10px;
     
+}
+.container div i {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}
+#logo a img {
+    display: flex;
+    position: absolute;
+    margin:0px;
+    top: 10px;
+    left: 550px;
 }
 #promo_uno {
     background-color: #EDF1F1;
     height: 100px;
-    width: auto;
+    width: 106%;
     border-top: 1px solid #ddd;;
     border-bottom: 1px solid #ddd;
+    max-width: 4000px;
+    position: relative;
+    
 }
-#Descuento {
+#Descuento strong {
+    display: flex;
+    justify-content: center;
     color: #59a574;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
     line-height: 160%;
+    font-weight: 600;
 }
 #promo_dos {
     color: #666;
@@ -30,25 +58,32 @@ html {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #EDF1F1;
+    background-color: #EEECEA;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    height: 800px;
+    height: 700px;
+    max-width: 4000px;
+    margin: 0px;
+    width: 106%;
 }
 #ppt1 {
-    background-color: #EFF0ED;
-    width: 600px;
-    height: 300px;
+    background-color: #EEECEA;
+    width: 500px;
+    height: 200px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Muli',sans-serif;
+    margin-top: 10px;
     
 }
 #spt1 {
-    background-color:#EFF0ED ;
+    background-color:#EEECEA ;
     height: 50px;
     width: 600px;
     border-bottom: 2px solid #58A574;
 }
 #tpt1 {
-    background-color: #EFF0ED;
+    background-color: #EEECEA;
     width: 500px;
     height: 100px;
     line-height: 160%;
@@ -78,63 +113,226 @@ h3 {
     background-color: #58A574   ;
     width: 250px;
     height: 55px;
+    
 
 }
 #boton1 span {
     color: white;
     position: absolute;
-    top: 20px;
+    top: 18px;
     left: 10px;
 }
 .sub_container1, .sub_container1boton {
     display: flex;
     float: left;
     position: relative;
-    left: 50px;
+    left: 100px;
 }
 #texto2 {
+    display: flex;
     background-color: #F2F3F3;
     height: 800px;
     position: relative;
-    top: -27px;
+    margin: 0px;
+    max-width: 4000px;
+    width: 106%;
 }
 .sub_container2 h2{
-    font-size: 32px;
+    font-size: 31px;
     line-height: 160%;
-    position: relative;
-    left: 80px;
-    top: 30px;
+    float: left;
+    left: 100px;
+    top: 25px;
+    position: absolute;
+    font-weight: 600;
 }
 #texto2a {
     background-color: white;
-    width: 550px;
+    width: 600px;
     height: 600px;
-    display: flex;
     position: relative;
-    top: 60px;
+    top: 140px;
     left: 50px;
 }
 .sub_container2a h2 {
     font-size: 32px;
+    font-weight: 700;
     color: black;
     line-height: 160%;
     display: flex;
-    position: relative;
-    top: 50px;
+    margin-top: 70px;
+   
 }
 .sub_container2a p {
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 1px;
     color: black;
     display: flex;
     position: relative;
-    top: 50px;
+    top: 10px;
+    background-color: white;
+    height: 30px;
+    width: 460px;
 }
 .sub_container2a span {
     font-size: 16px;
     color: black;
     display: flex;
     position: relative;
-    top: 50px;
+    top: 20px;
+    font-weight:650;
+}
+.sub_container2a {
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+.sub_container2ab section {
+    width: 600px;
+    position: relative;
+    left: 6px;
+    bottom: -75px; 
+}
+
+#texto2b {
+    background-color: white;
+    height: 600px;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.sub_container2b img {
+    width: 300px;
+    border-top: 0px;
+}
+
+.sub_container2b h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    line-height: 160%;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.sub_container2b p {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.sub_container2b span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 30px;
+
+}
+#texto2c {
+    background-color: rgb(3, 3, 3);
+    height: 600px;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+.sub_container2c img {
+    width: 300px;
+    border-top: 0px;
+}
+.sub_container2c h3 {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 160%;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.sub_container2c p {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sub_container2c span {
+    font-size: 15px;
+    font-weight: 700;
+    color:#58a573;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+#Carousel {
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+#texto3 {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#texto3 h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 160%;
+    margin-top: 50px;
+}
+#texto3 span {
+    position: relative;
+    top: 110px;
+}
+#texto4 {
+    background-color: #F2F3F3;
+    width: 106%;
+    height: 650px;
+    max-width: 3000px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#texto4 h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    background-color: #F2F3F3;
+    width: 600px;
+    height: 250px;
+    margin-left: 120px;
+    display: inline-flex;
+    margin-top: 120px;
+}
+#texto4 p {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #F2F3F3;
+    width: 400px;
+    height: 100px;
+    margin-left: 120px;
+    line-height: 160%;
+    margin-top: 50px;
+}
+#texto4 a {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#58A573;
+    padding: 18px 70px;
+    margin-left: 120px;     
+}
+#texto4 span img{
+    margin-top: 10px;
+    margin-left: 50px;
+
 }
